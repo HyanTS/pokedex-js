@@ -24,6 +24,7 @@ Este é um projeto de Pokédex que exibe informações sobre os Pokémon da prim
 
 
 ## 📦 **Instalação e Uso**
+
 Clone o repositório:
 ```
 git clone https://github.com/seu-usuario/pokedex.git
@@ -37,14 +38,16 @@ Abra o arquivo index.html em seu navegador:
 Você pode clicar duas vezes no arquivo ou usar uma extensão como o "Live Server" no VS Code para rodar localmente.
 
 ## 🌐 **Demonstração Online**
-Se você já hospedou o projeto (por exemplo, no GitHub Pages ou Vercel), insira o link aqui: 🔗 Acesse a Pokédex Online
 
+🔗 [Acesse a Pokédex Online](https://hyants.github.io/pokedex-js/):
 
 ## 🛠 **Melhorias Futuras**
+
 Adicionar busca por nome ou ID de Pokémon.
 Implementar filtros por tipo (Ex.: Água, Fogo, Elétrico).
 Melhorar a responsividade para dispositivos móveis.
 Exibir estatísticas adicionais (Ex.: Base Stats).
+
 ## 🧑‍💻 **Autor**
 
 Desenvolvido por [HyanTS](https://github.com/hyants).
