@@ -45,5 +45,5 @@ loadMoreButton.addEventListener('click', () => {
    
 function openPokemonDetail(id) {
     window.location.href = `pokemon.html?id=${id}`;
-  } 
+} 
 

@@ -44,8 +44,11 @@ Você pode clicar duas vezes no arquivo ou usar uma extensão como o "Live Serve
 ## 🛠 **Melhorias Futuras**
 
 Adicionar busca por nome ou ID de Pokémon.
+
 Implementar filtros por tipo (Ex.: Água, Fogo, Elétrico).
+
 Melhorar a responsividade para dispositivos móveis.
+
 Exibir estatísticas adicionais (Ex.: Base Stats).
 
 ## 🧑‍💻 **Autor**
