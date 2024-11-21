@@ -1,0 +1,34 @@
+
+#pokemon-details {
+    text-align: center;
+    justify-content: center;
+}
+
+.name h1 {
+    text-transform: capitalize;
+}
+
+.photo {
+    max-width: 100%;
+    height: 70px;
+}
+
+#voltar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+}
+
+#voltar button {
+    padding: 0.25rem 0.5rem;
+    margin: 0.25rem 0;
+    font-size: 0.625rem;
+    background-color: #6c79db;
+    border: none;
+    border-radius: 1rem;
+    text-decoration: none;
+    color: #fff;
+}

@@ -4,7 +4,7 @@ const loadMoreButton = document.getElementById('loadMoreButton')
 
 const maxRecords = 251;
 let offset = 0;
-const limit = 10;
+const limit = 12;
 
 function loadPokemonItens(offset, limit) {   
 

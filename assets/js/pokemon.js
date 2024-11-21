@@ -4,17 +4,23 @@ const pokemonId = urlParams.get('id');
 
 // Função para renderizar os detalhes do Pokémon
 function renderPokemonDetails(pokemon) {
-    const container = document.getElementById('pokemon-details');
-    container.innerHTML = `
-        <h1>${pokemon.name}</h1>
-        <img src="${pokemon.photo}" alt="${pokemon.name}">
-        <p><strong>Número:</strong> ${pokemon.number}</p>
-        <p><strong>Altura:</strong> ${pokemon.height / 10} m</p>
-        <p><strong>Peso:</strong> ${pokemon.weight / 10} kg</p>
-        <h3>Tipos:</h3>
-        <ul>
-            ${pokemon.types.map((type) => `<li>${type}</li>`).join('')}
-        </ul>
+    const content = document.getElementById('pokemon-details');
+    content.innerHTML = `
+        <div class="name">
+            <h1>${pokemon.name}</h1>
+        </div>
+        <div class="photo">
+            <img src="${pokemon.photo}" alt="${pokemon.name}">
+        </div>
+        <div class="informations">
+            <p><strong>Número:</strong> ${pokemon.number}</p>
+            <p><strong>Altura:</strong> ${pokemon.height / 10} m</p>
+            <p><strong>Peso:</strong> ${pokemon.weight / 10} kg</p>
+            <h3>Tipos:</h3>
+            <ul>
+                ${pokemon.types.map((type) => `<li>${type}</li>`).join('')}
+            </ul>
+        </div>
     `;
 }
 
